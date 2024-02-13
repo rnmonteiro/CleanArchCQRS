@@ -12,7 +12,7 @@ namespace CleanArch.Domain.Abstractions
         Task<IEnumerable<Member>> GetMembers();
         Task<Member> GetMemberById(int id);
         Task<Member> AddMember(Member member);
-        Task<Member> UpdateMember(Member member);
-        Task DeleteMember(int id);
+        void UpdateMember(Member member);
+        Task<Member> DeleteMember(int id);
     }
 }
