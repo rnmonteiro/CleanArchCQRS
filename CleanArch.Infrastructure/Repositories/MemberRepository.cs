@@ -28,9 +28,15 @@ namespace CleanArch.Infrastructure.Repositories
             return member;
         }
 
-        public Task<Member> DeleteMember(int id)
+        public async Task<Member> DeleteMember(int id)
         {
-            throw new NotImplementedException();
+            var member = await GetMemberById(id);
+
+            if (member is null)
+                throw new InvalidOperationException("Member not found.");
+
+            db.Members.Remove(member);
+            return member;
         }
 
         public async Task<Member> GetMemberById(int id)

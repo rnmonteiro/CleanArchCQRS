@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CHduoSf2n6WTwy8qO+ZGJUBxa25dumNmvtYXlt6Vq5UQx9Hcknua7lAeUINlWtnKesLpULhz2XCWChkLCgFdxQ==",
+  "dgSpecHash": "XhzhFY5xokCy74lVs7JyksGLxw79P/JKlYWtX/hUJlaI/jUrAhaInKixIBpcjwNiIsFkgRfF/DT7mc9LDlL/rg==",
   "success": true,
   "projectFilePath": "C:\\Users\\renan\\source\\repos\\CleanArch\\CleanArch.Infrastructure\\CleanArch.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\renan\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\renan\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
